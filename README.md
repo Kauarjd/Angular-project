@@ -1,27 +1,48 @@
-# AngularBlog
+# Angular Blog
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+Este é um projeto de blog desenvolvido em Angular. Ele foi criado para demonstrar a construção de um blog simples, com funcionalidades como exibição de posts, compartilhamento em redes sociais e navegação entre páginas.
 
-## Development server
+## Funcionalidades
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Listagem de Posts**: Exibe uma lista de posts na página inicial.
+- **Página de Detalhes**: Mostra o conteúdo completo de cada post.
+- **Compartilhamento**: Permite compartilhar posts no Twitter, Facebook e LinkedIn.
+- **Responsivo**: Design adaptável para dispositivos móveis e desktops.
+- **Leitura Estimada**: Informa ao usuário o tempo estimado para ler cada post.
+- **Botão "Voltar ao Topo"**: Facilita a navegação para o topo da página.
 
-## Code scaffolding
+## Tecnologias Utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Angular**: Framework front-end para construção da interface.
+- **TypeScript**: Linguagem principal do projeto.
+- **HTML/CSS**: Estrutura e estilização das páginas.
+- **Git**: Controle de versão do projeto.
 
-## Build
+## Melhorias e Mudanças
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Aqui estão as melhorias implementadas no projeto:
 
-## Running unit tests
+1. **Leitura Estimada**:
+   - Adicionada uma função que calcula o tempo estimado de leitura de cada post com base no número de palavras.
+   - Exibição do tempo estimado na página de detalhes do post.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2. **Botão "Voltar ao Topo"**:
+   - Implementado um botão flutuante que aparece ao rolar a página.
+   - O botão permite que o usuário retorne ao topo da página com uma animação suave.
 
-## Running end-to-end tests
+3. **Compartilhamento em Redes Sociais**:
+   - Adicionados botões de compartilhamento para Twitter, Facebook e LinkedIn.
+   - Links dinâmicos que incluem o título e a URL do post.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+4. **Conteúdo Expandido**:
+   - Os textos dos posts foram ampliados e organizados em parágrafos para melhorar a legibilidade.
+   - Tempo de leitura ajustado para ficar entre 2 e 5 minutos por post.
 
-## Further help
+5. **Responsividade**:
+   - Melhorias no layout para garantir uma experiência consistente em dispositivos móveis e desktops.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+### Pré-requisitos
+
+- Node.js (v16 ou superior)
+- Angular CLI (v15 ou superior)
