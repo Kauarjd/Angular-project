@@ -46,3 +46,7 @@ Aqui estão as melhorias implementadas no projeto:
 
 - Node.js (v16 ou superior)
 - Angular CLI (v15 ou superior)
+
+## Créditos
+
+Este projeto foi baseado no repositório (https://github.com/felipeAguiarCode/angular-blog), desenvolvido por [felipe Aguiar]. Foram feitas melhorias e adições para atender aos requisitos do desafio da DIO.
