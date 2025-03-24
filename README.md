@@ -1,27 +1,37 @@
 # AngularBlog
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+# Sobre o Projeto
+Este projeto é um blog desenvolvido em Angular, criado como parte do desafio de projeto da DIO. O objetivo foi construir uma aplicação front-end que simula um blog, com funcionalidades como listagem de posts, exibição de conteúdo detalhado, compartilhamento em redes sociais e uma experiência de usuário responsiva.
 
-## Development server
+O blog foi desenvolvido utilizando Angular, um dos frameworks mais populares para construção de interfaces modernas e dinâmicas. Além disso, foram utilizadas tecnologias como TypeScript, HTML e CSS para a estruturação e estilização das páginas.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# Funcionalidades Implementadas
+Listagem de Posts:
 
-## Code scaffolding
+Exibe uma lista de posts na página inicial, com título, descrição e imagem de capa.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Página de Detalhes:
 
-## Build
+Mostra o conteúdo completo de cada post, incluindo texto expandido e tempo estimado de leitura.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Compartilhamento em Redes Sociais:
 
-## Running unit tests
+Botões para compartilhar posts no Twitter, Facebook e LinkedIn, com links dinâmicos que incluem o título e a URL do post.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Leitura Estimada:
 
-## Running end-to-end tests
+Calcula e exibe o tempo estimado de leitura de cada post, com base no número de palavras.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Botão "Voltar ao Topo":
 
-## Further help
+Um botão flutuante que aparece ao rolar a página, permitindo que o usuário retorne ao topo com uma animação suave.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# Tecnologias Utilizadas
+Angular: Framework front-end para construção da interface.
+
+TypeScript: Linguagem principal do projeto.
+
+HTML/CSS: Estrutura e estilização das páginas.
+
+Git: Controle de versão do projeto.
+
